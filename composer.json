@@ -1,0 +1,21 @@
+{
+    "name": "alan/app-salon_php_mvc_js_sass",
+    "description": "Proyecto PHP MVC",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Clases\\" : "./clases"
+        }
+    },
+    "authors": [
+        {
+            "name": "alan"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
