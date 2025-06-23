@@ -4,7 +4,7 @@ namespace Model;
 
 class Servicio extends ActiveRecord{
     //Base de datos
-    protected static $tabla = "Servicios";
+    protected static $tabla = "servicios";
     protected static $columnasDB = ["id", "nombre", "precio"];
 
     public $id;
